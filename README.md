@@ -12,7 +12,7 @@ Instructions:
 
 * Style the document using the MS Word "Style Gallery". The various styles are named and should be fairly self-explanatory. If your document is already "styled", you should be able to apply the template easily. MS Word isn't really scriptable and equation styling is pretty horrific, so some things may have to be edited manually.
 
-  <img src="word_styles.png" width="600">
+  <img src="word_styles.png" width="350">
 
 * Change the font of all equations to "Stix Two Math". It can be convenient to [change the default font](https://superuser.com/questions/1114697/select-a-different-math-font-in-microsoft-word).  Annoyingly, there is no easy way to select all equations in a MS Word document. If the main text is in English and does not require special language glyphs, the whole main text can be typeset with "Stix Two Math" and there is need to select just equations. Selecting equations [is possible (sort of)](https://www.extendoffice.com/documents/word/751-word-select-equation.html) by opening the "Microsoft Visual Basic for Applications" window (alt/option+F11) and executing (click Insert > Module, then F5 to run):
 
