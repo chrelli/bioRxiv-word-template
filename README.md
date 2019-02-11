@@ -41,4 +41,4 @@ Instructions:
 
   <img src="chaotic_word.png" width="600">
 
-* **ANOTHER TIP:** There is no Helvetica math font, which is compatible with the Word equation editor. So if you want to use Helvetica for the main text and you want to add math symbols or equations, you have a problem. However, there *is* one sans serif unicode font with full math coverage, and it's free on github: [Fire Math](https://github.com/firamath/firamath) (matches the [free FiraGO font family](https://github.com/bBoxType/FiraGO)).
+* **ANOTHER TIP:** There is no Helvetica math font that is compatible with the Word equation editor. So if you want to use Helvetica for the main text and you want to add equations, you have a problem. There is *one* sans serif unicode font with full math coverage, and it's free on github: [Fire Math](https://github.com/firamath/firamath) (it matches the [free FiraGO font family](https://github.com/bBoxType/FiraGO)). 
