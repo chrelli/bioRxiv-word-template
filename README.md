@@ -12,8 +12,7 @@ Instructions:
 
 * Style the document using the MS Word "Style Gallery". The various styles are named and should be fairly self-explanatory. If your document is already "styled", you should be able to apply the template easily. MS Word isn't really scriptable and equation styling is pretty horrific, so some things may have to be edited manually.
 
-![word style names](word_styles.png)
-
+  <img src="word_styles.png" width="600">
 
 * Change the font of all equations to "Stix Two Math". It can be convenient to [change the default font](https://superuser.com/questions/1114697/select-a-different-math-font-in-microsoft-word).  Annoyingly, there is no easy way to select all equations in a MS Word document. If the main text is in English and does not require special language glyphs, the whole main text can be typeset with "Stix Two Math" and there is need to select just equations. Selecting equations [is possible (sort of)](https://www.extendoffice.com/documents/word/751-word-select-equation.html) by opening the "Microsoft Visual Basic for Applications" window (alt/option+F11) and executing (click Insert > Module, then F5 to run):
 
@@ -40,6 +39,6 @@ Instructions:
 
 * **TIP: Insert and style all text before adding any figures. Work sequentially.** In contrast to e.g. [LibreOffice](https://www.libreoffice.org/), it is not possible to anchor figures and text boxes to pages in MS Word. Everything is anchored to text. Adding figures can move text from page to page, which [will initiate chaotic motion](https://twitter.com/gossipgriii/status/713425874167537664).
 
-  <img src="chaotic_word.png" width="300">
+  <img src="chaotic_word.png" width="600">
 
 * **ANOTHER TIP:** There is no Helvetica math font, which is compatible with the Word equation editor. So if you want to use Helvetica for the main text and you want to add math symbols or equations, you have a problem. However, there *is* one sans serif unicode font with full math coverage, and it's free on github: [Fire Math](https://github.com/firamath/firamath) (matches the [free FiraGO font family](https://github.com/bBoxType/FiraGO)).
