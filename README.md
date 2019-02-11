@@ -37,10 +37,10 @@ Instructions:
 
 * It looks neat if figures and figure legend text boxes are kept at fixed widths, which correspond to the column widths. The columns are 89 mm wide with 5.9 mm spacing between them. By default, word will pad images and text boxes with 3.2 mm. To align with the text, the width of figures and text boxes should be either one-column (89 mm), one-and-one-half-column (133.125 mm) or double-column (183.9 mm, see examples in the document).
 
-* **TIP: Insert and style all text before adding any figures. Work sequentially.** In contrast to e.g. [LibreOffice](https://www.libreoffice.org/), it is not possible to anchor figures and text boxes to pages in MS Word. Everything is anchored to text. Adding figures can move text from page to page, which [will initiate chaotic motion](https://twitter.com/gossipgriii/status/713425874167537664).
+* **TIP:** Insert and style all text before adding any figures. Work sequentially. In contrast to e.g. [LibreOffice](https://www.libreoffice.org/), it is not possible to anchor figures and text boxes to pages in MS Word. Everything is anchored to text. Adding figures can move text from page to page, which [will initiate chaotic motion](https://twitter.com/gossipgriii/status/713425874167537664).
 
   <img src="chaotic_word.png" width="500">
 
-* **ANOTHER TIP:** There is no Helvetica math font that is compatible with the Word equation editor. So if you want to use Helvetica for the main text and you want to add equations, you have a problem. There is only *one* sans serif unicode font with full math coverage, and it's free on github: [Fire Math](https://github.com/firamath/firamath) (it matches the [free FiraGO font family](https://github.com/bBoxType/FiraGO)). That's probably your best bet.
+* **ANOTHER TIP:** There is no Helvetica compatible math font. So if you want to use Helvetica for the main text and you want to add equations, you have a problem. There is only *one* sans serif unicode font with full math coverage, which will work with the MS Word equation editor. It's free on github: [Fire Math](https://github.com/firamath/firamath) (it matches the [free FiraGO font family](https://github.com/bBoxType/FiraGO)). That's probably your best bet.
 
 Good luck!
