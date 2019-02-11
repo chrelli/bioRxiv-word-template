@@ -39,6 +39,6 @@ Instructions:
 
 * **TIP: Insert and style all text before adding any figures. Work sequentially.** In contrast to e.g. [LibreOffice](https://www.libreoffice.org/), it is not possible to anchor figures and text boxes to pages in MS Word. Everything is anchored to text. Adding figures can move text from page to page, which [will initiate chaotic motion](https://twitter.com/gossipgriii/status/713425874167537664).
 
-  <img src="chaotic_word.png" width="600">
+  <img src="chaotic_word.png" width="500">
 
 * **ANOTHER TIP:** There is no Helvetica math font that is compatible with the Word equation editor. So if you want to use Helvetica for the main text and you want to add equations, you have a problem. There is *one* sans serif unicode font with full math coverage, and it's free on github: [Fire Math](https://github.com/firamath/firamath) (it matches the [free FiraGO font family](https://github.com/bBoxType/FiraGO)). 
