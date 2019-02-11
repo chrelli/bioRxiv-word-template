@@ -14,7 +14,7 @@ Instructions:
 
   <img src="word_styles.png" width="350">
 
-* Change the font of all equations to "Stix Two Math". It can be convenient to [change the default font](https://superuser.com/questions/1114697/select-a-different-math-font-in-microsoft-word).  Annoyingly, there is no easy way to select all equations in a MS Word document. If the main text is in English and does not require special language glyphs, the whole main text can be typeset with "Stix Two Math" and there is need to select just equations. Selecting equations [is possible (sort of)](https://www.extendoffice.com/documents/word/751-word-select-equation.html) by opening the "Microsoft Visual Basic for Applications" window (alt/option+F11) and executing (click Insert > Module, then F5 to run):
+* Change the font of all equations to "Stix Two Math". It can be convenient to [change the default font](https://superuser.com/questions/1114697/select-a-different-math-font-in-microsoft-word).  Annoyingly, there is no easy way to select all equations in a MS Word document. Selecting equations [is possible (sort of)](https://www.extendoffice.com/documents/word/751-word-select-equation.html) by opening the "Microsoft Visual Basic for Applications" window (alt/option+F11) and executing (click Insert > Module, then F5 to run):
 
   ```
   Sub SelectAllEquations()
@@ -35,7 +35,7 @@ Instructions:
   If your main text does not use bold or italics, you can also just select a whole paragraph and change the font of everything to "Stix Two Math" – it will look the same.
 
 
-* It looks neat if figures and figure legend text boxes are kept at fixed widths, which correspond to the column widths. The columns are 89 mm wide with 5.9 mm spacing between them. By default, word will pad images and text boxes with 3.2 mm. Thus, to align with the text, the width of figures and text boxes should be either one-column (89 mm), one-and-one-half-column (139.4 -1.6 mm w. 44.5 - 1.6 mm text box next to it) or double-column (183.9 mm, see examples in the document).
+* It looks neat if figures and figure legend text boxes are kept at fixed widths, which correspond to the column widths. The columns are 89 mm wide with 5.9 mm spacing between them. By default, word will pad images and text boxes with 3.2 mm. To align with the text, the width of figures and text boxes should be either one-column (89 mm), one-and-one-half-column (133.125 mm) or double-column (183.9 mm, see examples in the document).
 
 * **TIP: Insert and style all text before adding any figures. Work sequentially.** In contrast to e.g. [LibreOffice](https://www.libreoffice.org/), it is not possible to anchor figures and text boxes to pages in MS Word. Everything is anchored to text. Adding figures can move text from page to page, which [will initiate chaotic motion](https://twitter.com/gossipgriii/status/713425874167537664).
 
