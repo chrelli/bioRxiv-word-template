@@ -8,9 +8,12 @@ Here is a template to style a manuscript in MS Word for a bioRxiv submission. Th
 The template uses a sans serif font (Helvetica) for headings and the abstract and a serif font ([Stix Two Text](https://github.com/stipub/stixfonts)) for the rest. The serif font is free and has full unicode coverage for math symbols ([Stix Two Math](https://github.com/stipub/stixfonts)) and is thus fully compatible with the MS Word equation editor. No more Times New Roman text with Cambria math! The template is for A4 paper.
 
 Instructions:
-* Install Helvetica (or a similar sans serif font) and the [Stix Two](https://github.com/stipub/stixfonts) font family before using the template.
+* Install Helvetica (or a similar sans serif font) and the [Stix Two](https://github.com/stipub/stixfonts) font family (Text and Math) before using the template.
 
 * Style the document using the MS Word "Style Gallery". The various styles are named and should be fairly self-explanatory. If your document is already "styled", you should be able to apply the template easily. MS Word isn't really scriptable and equation styling is pretty horrific, so some things may have to be edited manually.
+
+![word style names](word_styles.png)
+
 
 * Change the font of all equations to "Stix Two Math". It can be convenient to [change the default font](https://superuser.com/questions/1114697/select-a-different-math-font-in-microsoft-word).  Annoyingly, there is no easy way to select all equations in a MS Word document. If the main text is in English and does not require special language glyphs, the whole main text can be typeset with "Stix Two Math" and there is need to select just equations. Selecting equations [is possible (sort of)](https://www.extendoffice.com/documents/word/751-word-select-equation.html) by opening the "Microsoft Visual Basic for Applications" window (alt/option+F11) and executing (click Insert > Module, then F5 to run):
 
